@@ -4,10 +4,11 @@ A register-level demonstration project for the **STM32L010F4P6** (Cortex-M0+, Ca
 
 The goal of this project is to demonstrate direct hardware manipulation using **CMSIS** register definitions and bit-manipulation macros (`SET_BIT`, `CLEAR_BIT`, `MODIFY_REG`, `READ_BIT`, `WRITE_REG`) without relying on HAL or LL drivers. All hardware sequences strictly follow the **RM0451** Reference Manual and Cortex-M0+ architectural guidelines.
 
-## Development Environment
+## Toolchain & Environment
 
-* **IDE:** VS Code
-* **Toolchain:** Keil MDK v6 (Arm Compiler 6) with **CMSIS-Toolbox** (`csolution` / `cbuild`)
+* **Environment:** VS Code + Keil Studio Pack
+* **Toolchain:** Keil MDK v6 (Arm Compiler 6)
+* **Build System:** CMSIS-Toolbox (`csolution` / `cbuild`)
 * **Target MCU:** STM32L010F4P6 (TSSOP-20, 16 KB Flash, 2 KB RAM)
 
 ## Implemented Modules & Features
